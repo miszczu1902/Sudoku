@@ -1,0 +1,12 @@
+.root {
+    -fx-background-image: url("tlo2.png");
+}
+
+.popupLabel {
+    -fx-text-alignment: center;
+    -fx-text-fill: black;
+    -fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-size: 30px;
+    -fx-max-width: 400px;
+    -fx-min-width: 400px;
+}

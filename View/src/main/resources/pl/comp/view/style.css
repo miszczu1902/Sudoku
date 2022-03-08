@@ -1,0 +1,63 @@
+.root {
+    -fx-background-image: url("tloo.png");
+}
+
+.label {
+    -fx-text-fill: black;
+    -fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-size: 30px;
+}
+
+#titleLabel {
+    -fx-font-size: 100px;
+}
+
+.button {
+    -fx-text-fill: black;
+    -fx-border-radius: 15px;
+    -fx-background-color: #ffffff;
+    -fx-padding: 5px;
+    -fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-size: 20px;
+}
+
+.grid {
+    -fx-alignment: center !important;
+    -fx-max-width: 95%;
+    -fx-max-height: 60%;
+}
+
+.grid > * {
+    -fx-min-height: 50px;
+    -fx-min-width: 50px;
+    -fx-max-height: 75px;
+    -fx-max-width: 75px;
+    -fx-alignment: center;
+    -fx-font-family: "Tw Cen MT Condensed";
+    -fx-font-weight: bold;
+    -fx-font-size: 30px;
+}
+
+.grid Line {
+    -fx-stroke: black;
+}
+
+.grid {
+    -fx-grid-lines-visible: true;
+}
+
+.text-field, .filled {
+    -fx-background-color: none;
+}
+
+.notFilled {
+    -fx-background-color: #d9d9d9;
+}
+
+.rewardImg {
+    -fx-background-image: url("tlo2.png");
+}
+#dbFieldName {
+    -fx-background-color: grey;
+}
+

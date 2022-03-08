@@ -1,0 +1,6 @@
+**/target
+**/.idea
+**/SudokuGameProject.log
+**/lastBoard.txt
+**/clonedLastBoard.txt
+**/database.db
